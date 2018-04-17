@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-core/sp-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-core/sp-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-core/sp-tool" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-modules/sp-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-modules/sp-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-modules/sp-jxkh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp-modules/sp-workflow" charset="UTF-8" />
+  </component>
+</project>

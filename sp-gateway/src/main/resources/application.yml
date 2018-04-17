@@ -1,0 +1,79 @@
+spring:
+    application:
+        name: sp-gate
+    thymeleaf:
+        mode: LEGACYHTML5
+        cache: false
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        time-zone: GMT+8
+        default-property-inclusion: non_null
+    redis:
+        database: 1
+        host: 127.0.0.1
+        jedis:
+          pool:
+              max-active: 20
+    rabbitmq:
+        host: ${RABBIT_MQ_HOST:localhost}
+        port:  ${RABBIT_MQ_PORT:5672}
+        usercode: guest
+        password: guest
+    sleuth:
+      sampler:
+        percentage: 1
+      zuul:
+        enabled: true
+server:
+    port: 7001 #启动端口
+#
+zuul:
+  ignored-services: "*"
+  sensitive-headers:
+  prefix: /api #为zuul设置一个公共的前缀
+  routes:
+    sp-admin:
+      path: /admin/**
+      serviceId: sp-admin
+    sp-jxkh:
+      path: /jxkh/**
+      serviceId: sp-jxkh
+    sp-base:
+      path: /base/**
+      serviceId: sp-base
+
+ribbon:
+  eureka:
+    enabled: true
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
+  OkToRetryOnAllOperations: false
+
+hystrix:
+  threadpool:
+    default:
+      coreSize: 1000 ##并发执行的最大线程数，默认10
+      maxQueueSize: 1000 ##BlockingQueue的最大队列数
+      queueSizeRejectionThreshold: 500 ##即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 50000
+          strategy: SEMAPHORE
+gate:
+  ignore:
+    startWith: /static,/jwt
+
+jwt:
+  token-header: token
+  expiration: 14400
+  secret: xx1WET12^%3^(WE45
+
+auth:
+  user:
+    token-header: token
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sp-admin" />
+        <module name="sp-base" />
+        <module name="sp-center" />
+        <module name="sp-common" />
+        <module name="sp-core" />
+        <module name="sp-gateway" />
+        <module name="sp-generator" />
+        <module name="sp-jxkh" />
+        <module name="sp-tool" />
+        <module name="sp-workflow" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice" target="1.8" />
+      <module name="sp-admin" target="1.8" />
+      <module name="sp-base" target="1.8" />
+      <module name="sp-center" target="1.8" />
+      <module name="sp-common" target="1.8" />
+      <module name="sp-core" target="1.8" />
+      <module name="sp-gateway" target="1.8" />
+      <module name="sp-generator" target="1.7" />
+      <module name="sp-jxkh" target="1.8" />
+      <module name="sp-modules" target="1.8" />
+      <module name="sp-tool" target="1.8" />
+      <module name="sp-workflow" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

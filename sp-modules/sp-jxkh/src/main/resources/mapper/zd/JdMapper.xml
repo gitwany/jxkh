@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wuhan.sp.jxkh.mapper.zd.JdMapper" >
+  <resultMap id="BaseResultMap" type="com.wuhan.sp.jxkh.entity.Jd" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" property="id" jdbcType="INTEGER" />
+    <result column="JDBM" property="jdbm" jdbcType="VARCHAR" />
+    <result column="JDMC" property="jdmc" jdbcType="VARCHAR" />
+    <result column="JDQH" property="jdqh" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

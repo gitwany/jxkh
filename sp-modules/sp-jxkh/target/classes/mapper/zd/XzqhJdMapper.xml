@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wuhan.sp.jxkh.mapper.zd.XzqhJdMapper" >
+  <resultMap id="BaseResultMap" type="com.wuhan.sp.jxkh.entity.XzqhJd" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" property="id" jdbcType="INTEGER" />
+    <result column="XZQH" property="xzqh" jdbcType="VARCHAR" />
+    <result column="QM" property="qm" jdbcType="VARCHAR" />
+    <result column="JM" property="jm" jdbcType="VARCHAR" />
+    <result column="DLCD" property="dlcd" jdbcType="INTEGER" />
+    <result column="MDS" property="mds" jdbcType="INTEGER" />
+    <result column="SQS" property="sqs" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice.iml" filepath="$PROJECT_DIR$/microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-modules/sp-admin/sp-admin.iml" filepath="$PROJECT_DIR$/sp-modules/sp-admin/sp-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-modules/sp-base/sp-base.iml" filepath="$PROJECT_DIR$/sp-modules/sp-base/sp-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-center/sp-center.iml" filepath="$PROJECT_DIR$/sp-center/sp-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-core/sp-common/sp-common.iml" filepath="$PROJECT_DIR$/sp-core/sp-common/sp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-core/sp-core.iml" filepath="$PROJECT_DIR$/sp-core/sp-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-gateway/sp-gateway.iml" filepath="$PROJECT_DIR$/sp-gateway/sp-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-core/sp-generator/sp-generator.iml" filepath="$PROJECT_DIR$/sp-core/sp-generator/sp-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-modules/sp-jxkh/sp-jxkh.iml" filepath="$PROJECT_DIR$/sp-modules/sp-jxkh/sp-jxkh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-modules/sp-modules.iml" filepath="$PROJECT_DIR$/sp-modules/sp-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-core/sp-tool/sp-tool.iml" filepath="$PROJECT_DIR$/sp-core/sp-tool/sp-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp-modules/sp-workflow/sp-workflow.iml" filepath="$PROJECT_DIR$/sp-modules/sp-workflow/sp-workflow.iml" />
+    </modules>
+  </component>
+</project>

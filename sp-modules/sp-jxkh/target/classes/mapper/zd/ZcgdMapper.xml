@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wuhan.sp.jxkh.mapper.zd.ZcgdMapper" >
+  <resultMap id="BaseResultMap" type="com.wuhan.sp.jxkh.entity.Zcgd" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" property="id" jdbcType="INTEGER" />
+    <result column="ZCGDBM" property="zcgdbm" jdbcType="VARCHAR" />
+    <result column="ZCGDMC" property="zcgdmc" jdbcType="VARCHAR" />
+    <result column="QHBM" property="qhbm" jdbcType="VARCHAR" />
+    <result column="QH" property="qh" jdbcType="VARCHAR" />
+    <result column="QD" property="qd" jdbcType="VARCHAR" />
+    <result column="ZD" property="zd" jdbcType="VARCHAR" />
+    <result column="LC" property="lc" jdbcType="INTEGER" />
+    <result column="MDS" property="mds" jdbcType="INTEGER" />
+    <result column="LB" property="lb" jdbcType="VARCHAR" />
+    <result column="BZ" property="bz" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
